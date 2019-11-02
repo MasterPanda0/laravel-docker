@@ -2,9 +2,9 @@
 docker laravel starter pack with nginx and mysql 
 non ssl
 
-step:
+# steps:
 1.  linux:
-      # docker run --rm -v $(pwd):/app composer install
+      $ docker run --rm -v $(pwd):/app composer install
     Windows:
       docker run --rm -v (pwd):/app composer install
       e.g. docker run --rm -v D:\test:/app composer install
